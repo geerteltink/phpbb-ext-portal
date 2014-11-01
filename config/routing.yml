@@ -1,0 +1,3 @@
+portal:
+    pattern: /
+    defaults: { _controller: xtreamwayz.portal.main.controller:handle }

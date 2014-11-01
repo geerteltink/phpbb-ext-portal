@@ -1,0 +1,27 @@
+{
+    "name": "xtreamwayz/portal",
+    "type": "phpbb-extension",
+    "description": "Portal Extension for phpBB 3.1",
+    "homepage": "https://github.com/xtreamwayz/phpbb-ext-portal",
+    "version": "0.9.0",
+    "time": "2014-11-01",
+    "license": "GPL-2.0",
+    "authors": [{
+        "name": "Geert Eltink",
+        "homepage": "https://xtreamwayz.github.io/",
+        "role": "Lead Developer"
+    }],
+    "require": {
+        "php": ">=5.3.3",
+        "nickvergessen/phpbb-tool-trimmessage": "1.*"
+    },
+    "require-dev": {
+        "phpbb/epv": "dev-master"
+    },
+    "extra": {
+        "display-name": "Portal Extension",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.0"
+        }
+    }
+}

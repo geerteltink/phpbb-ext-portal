@@ -1,0 +1,37 @@
+{% include 'overall_header.html' %}
+
+<div class="row">
+    <div class="col-sm-8">
+        <h2>
+            <a href="{U_NEWS}">News</a>
+        </h2>
+        {% for post in news_posts %}
+        <article class="media media-divider" itemscope itemtype="http://schema.org/NewsArticle">
+            <div class="media-object">
+                <div class="media-date">
+                    <time class="media-date-day" datetime="{{ post.post_time_iso }}" itemprop="dateCreated">{{ post.post_day }}</time>
+                    <time class="media-date-month" datetime="{{ post.post_time_iso }}">{{ post.post_month }}</time>
+                </div>
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading media-heading-sm">
+                    <a href="{{ post.topic_url }}" itemprop="url">
+                        <span itemprop="name">{{ post.post_title }}</span>
+                    </a>
+                </h3>
+                <div itemprop="articleBody">
+                    {{ post.post_text }}
+                </div>
+                <p class="pull-right">
+                    <a href="{{ post.topic_url }}">Read more</a>
+                </p>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+    <div class="col-sm-4">
+        <h2>Tools</h2>
+    </div>
+</div>
+
+{% include 'overall_footer.html' %}

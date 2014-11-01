@@ -1,0 +1,22 @@
+services:
+    xtreamwayz.portal.main.controller:
+        class: xtreamwayz\portal\controller\main
+        arguments:
+            - @controller.helper
+            - @template
+            - @xtreamwayz.portal.service
+    xtreamwayz.portal.service:
+        class: xtreamwayz\portal\service\portal_service
+        arguments:
+            - @dbal.conn
+            - @user
+            - @auth
+            - %core.root_path%
+            - %core.php_ext%
+    xtreamwayz.portal.main.listener:
+        class: xtreamwayz\portal\event\main_listener
+        arguments:
+            - @controller.helper
+            - @template
+        tags:
+            - { name: event.listener }
