@@ -1,4 +1,4 @@
-# phpBB 3.1 Portal Extension - DEPRECATED
+# DEPRECATED
 
 **This package is not maintained anymore**
 
