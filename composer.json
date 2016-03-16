@@ -1,7 +1,7 @@
 {
     "name": "xtreamwayz/portal",
     "type": "phpbb-extension",
-    "description": "Portal Extension for phpBB 3.1",
+    "description": "Portal Extension for phpBB 3.1 - DEPRECATED",
     "homepage": "https://github.com/xtreamwayz/phpbb-ext-portal",
     "version": "0.9.0",
     "time": "2014-11-01",

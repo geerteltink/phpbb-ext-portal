@@ -1,9 +1,6 @@
-# phpBB 3.1 Portal Extension
+# phpBB 3.1 Portal Extension - DEPRECATED
 
-[![Latest Stable Version](https://poser.pugx.org/xtreamwayz/portal/v/stable.svg)](https://packagist.org/packages/xtreamwayz/portal)
-[![Latest Unstable Version](https://poser.pugx.org/xtreamwayz/portal/v/unstable.svg)](https://packagist.org/packages/xtreamwayz/portal)
-[![Total Downloads](https://poser.pugx.org/xtreamwayz/portal/downloads.svg)](https://packagist.org/packages/xtreamwayz/portal)
-[![License](https://poser.pugx.org/xtreamwayz/portal/license.svg)](https://packagist.org/packages/xtreamwayz/portal)
+** This package is not maintained anymore **
 
 Portal is an Extension for [phpBB 3.1](https://www.phpbb.com/)
 
@@ -35,13 +32,3 @@ The portal will be available at the root `example.com/`. In case it doesn't work
     RewriteEngine on
     RewriteBase /
     DirectoryIndex app.php
-
-## Collaborate
-
-* Create a issue in the [tracker](https://github.com/xtreamwayz/phpbb-ext-portal/issues)
-* Note the restrictions for [branch names](https://wiki.phpbb.com/Git#Branch_Names) and [commit messages](https://wiki.phpbb.com/Git#Commit_Messages) are similar to phpBB3
-* Submit a [pull-request](https://github.com/xtreamwayz/phpbb-ext-portal/pulls)
-
-## License
-
-[GPLv2](license.txt)
